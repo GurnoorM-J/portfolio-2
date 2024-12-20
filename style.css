@@ -1,0 +1,44 @@
+html {
+  background: skyblue;
+}
+
+body {
+  background: white;
+  width: 600px;
+  margin: 0px auto;
+  padding: 20px 50px;
+  text-align: center;
+  border-radius: 15px;
+  font-family: "Dancing Script", cursive;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+td > p {
+  font-size: 20spx;
+}
+
+img {
+  width: 100px;
+  border-radius: 15px;
+}
+
+img:hover {
+  opacity: 0.7;
+  border: 1px skyblue;
+  transition: opacity 0.5;
+}
+
+#header {
+  border: 2px solid skyblue;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: rgb(90, 181, 217);
+}
